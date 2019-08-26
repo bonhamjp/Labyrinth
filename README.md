@@ -9,6 +9,8 @@ Ray Casting: https://en.wikipedia.org/wiki/Ray_casting
 This application was built using Visual Studio 2019, and is only configured to run on Windows 10, currently. It was built with the 64-bit version of the SDL2 library, which can be found here: https://www.libsdl.org/download-2.0.php.
 It also depends on the glm mathematics library.
 
+Premake was also used to configure the Visual Studio application.
+
 I have cloned both dependencies, and they are linked to as submodules.
 
 ## Customizations
