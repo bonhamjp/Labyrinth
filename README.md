@@ -1,6 +1,7 @@
 # Labyrinth
 
-A real time Ray Casting procedurally generated labyrinth exploration experience.
+An interactive real time Ray Casting experience. This application allows users to explore, and find their way through procedurally generated labyrinths. It features a number of customizable settings.
+
 Ray Casting: https://en.wikipedia.org/wiki/Ray_casting
 
 ## Deployment
