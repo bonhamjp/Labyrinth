@@ -4,7 +4,7 @@
 #define WINDOW_HEIGHT 720
 
 // Must be in range (0-1]
-#define RESOLUTION 0.5f
+#define RESOLUTION 1.0f
 
 #define COLOR_BUFFER_WIDTH (WINDOW_WIDTH * RESOLUTION)
 #define COLOR_BUFFER_HEIGHT (WINDOW_HEIGHT * RESOLUTION)
@@ -15,8 +15,8 @@
 
 #define WALL_SIZE 32
 
-#define MAP_COLUMNS 6 // 62
-#define MAP_ROWS 6 // 62
+#define MAP_COLUMNS 64
+#define MAP_ROWS 64
 
 #define FIELD_OF_VIEW 60
 

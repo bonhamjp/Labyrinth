@@ -282,7 +282,5 @@ namespace Labyrinth
 		CarvePassages(map, startColumn, startRow, exitColumn, 1);
 
 		PlacePlayer(player, startRow, startColumn);
-
-		map.Print();
 	}
 }
