@@ -1,0 +1,6 @@
+[submodule "Labyrinth/vendor/glm"]
+	path = Labyrinth/vendor/glm
+	url = https://github.com/bonhamjp/glm
+[submodule "Labyrinth/vendor/SDL2"]
+	path = Labyrinth/vendor/SDL2
+	url = https://github.com/bonhamjp/SDL2

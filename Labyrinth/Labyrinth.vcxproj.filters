@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="application">
+      <UniqueIdentifier>{F9860F5B-653C-8850-EE30-82275AE57E54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer">
+      <UniqueIdentifier>{9C6AA017-8837-FB22-B150-E9CA9D7C30B1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Settings.h" />
+    <ClInclude Include="src\application\Application.h">
+      <Filter>application</Filter>
+    </ClInclude>
+    <ClInclude Include="src\renderer\ColorBuffer.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\renderer\Renderer.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\window\Window.h" />
+    <ClInclude Include="src\input_manager\InputManager.h" />
+    <ClInclude Include="src\clock\Clock.h" />
+    <ClInclude Include="src\scene\Scene.h" />
+    <ClInclude Include="src\player\Player.h" />
+    <ClInclude Include="src\map\Map.h" />
+    <ClInclude Include="src\map\MazeGenerator.h" />
+    <ClInclude Include="src\ray_caster\RayCaster.h" />
+    <ClInclude Include="src\texture\TextureManager.h" />
+    <ClInclude Include="src\texture\Textures.h" />
+    <ClInclude Include="src\camera\Camera.h" />
+    <ClInclude Include="src\score_saver\ScoreSaver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Entry.cpp" />
+    <ClCompile Include="src\application\Application.cpp">
+      <Filter>application</Filter>
+    </ClCompile>
+    <ClCompile Include="src\renderer\ColorBuffer.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\renderer\Renderer.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\window\Window.cpp" />
+    <ClCompile Include="src\input_manager\InputManager.cpp" />
+    <ClCompile Include="src\clock\Clock.cpp" />
+    <ClCompile Include="src\scene\Scene.cpp" />
+    <ClCompile Include="src\player\Player.cpp" />
+    <ClCompile Include="src\map\Map.cpp" />
+    <ClCompile Include="src\map\MazeGenerator.cpp" />
+    <ClCompile Include="src\ray_caster\RayCaster.cpp" />
+    <ClCompile Include="src\texture\TextureManager.cpp" />
+    <ClCompile Include="src\camera\Camera.cpp" />
+    <ClCompile Include="src\score_saver\ScoreSaver.cpp" />
+  </ItemGroup>
+</Project>
